@@ -1,0 +1,17 @@
+# robots.txt for kunjanshah0811.github.io/portfolio/
+# Generated for Kunjan Shah's portfolio website
+
+User-agent: *
+Allow: /
+
+# Disallow any future admin or private paths
+Disallow: /private/
+Disallow: /admin/
+Disallow: /.env
+
+# Crawl delay for polite crawlers
+Crawl-delay: 10
+
+# Sitemap location
+# ⚙️  Update this URL after deployment
+Sitemap: https://kunjanshah0811.github.io/portfolio/sitemap.xml
