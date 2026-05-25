@@ -15,7 +15,7 @@ export const meta = {
   linkedin: 'https://linkedin.com/in/kunjanshah811',
   github: 'https://github.com/kunjanshah0811',
   // Photo: put your image in public/ and reference it here
-  photo: '/photo.jpg',
+  photo: 'public/photo.jpg',
   // For <meta> tags / SEO
   seoDescription:
     'Kunjan Shah — AI Engineer & Software Developer specialising in LLMs, RAG pipelines, NLP, and full-stack backend APIs.',
