@@ -15,7 +15,7 @@ export const meta = {
   linkedin: 'https://linkedin.com/in/kunjanshah811',
   github: 'https://github.com/kunjanshah0811',
   // Photo: put your image in public/ and reference it here
-  photo: '/photo.jpg',
+  photo: 'public/photo.jpg',
   // For <meta> tags / SEO
   seoDescription:
     'Kunjan Shah — AI Engineer & Software Developer specialising in LLMs, RAG pipelines, NLP, and full-stack backend APIs.',
@@ -137,7 +137,7 @@ export const projects = [
     description:
       'Designed a full evaluation framework benchmarking 4+ leading LLMs on tool-calling accuracy using AST-based evaluation on synthetic datasets. Applied SFT (PyTorch, HuggingFace) achieving up to 50% accuracy gains — enabling open-source models to match proprietary counterparts on agentic tasks.',
     tags: ['LLM', 'Fine-Tuning', 'PyTorch', 'HuggingFace', 'Agentic AI', 'Benchmarking'],
-    link: 'https://github.com/kunjanshah0811',
+    link: 'https://github.com/kunjanshah0811/Fine-tune-experiment',
     featured: true,
   },
   {
@@ -157,7 +157,7 @@ export const projects = [
     description:
       'Async FastAPI + PostgreSQL backend with sub-100 ms full-text search. React-Vite frontend with instant-copy UX — reducing friction from prompt discovery to use in under 2 clicks.',
     tags: ['FastAPI', 'PostgreSQL', 'React', 'Vite', 'Full-Stack'],
-    link: 'https://github.com/kunjanshah0811',
+    link: 'https://github.com/kunjanshah0811/LLM-Prompts-Repository',
     featured: false,
   },
   {
@@ -167,7 +167,7 @@ export const projects = [
     description:
       'Built the TextPrep tool to preprocess large-scale digital behavioural text data: translation, cleaning, stopword removal. Measured impact via cosine similarity & topic modelling; published in Die Publizistik.',
     tags: ['NLP', 'Python', 'Topic Modeling', 'Cosine Similarity', 'Published'],
-    link: 'https://doi.org/lnkd.in/dYzwX2x8',
+    link: 'https://kodaqs-toolbox.gesis.org/github.com/YannikPeters/DQ_Tool_TextPreprocessing/index/',
     featured: false,
   },
   {
@@ -177,7 +177,7 @@ export const projects = [
     description:
       'Full-stack Shiny web application to compare social media datasets. Integrated sentiment analysis, keyness scoring, and topic modelling with interactive LDAvis visualizations — hosted on GESIS infrastructure.',
     tags: ['R', 'Shiny', 'Sentiment Analysis', 'LDA', 'Data Viz'],
-    link: 'https://github.com/kunjanshah0811',
+    link: 'https://shiny.gesis.org/datcha/',
     featured: false,
   },
   {
@@ -260,7 +260,7 @@ export const publications = [
     subtitle: 'The KODAQS-Tools — A new resource for assessing the quality of research data',
     venue: 'Die Publizistik',
     year: '2024',
-    url: 'https://doi.org/lnkd.in/dYzwX2x8',
+    url: 'https://link.springer.com/article/10.1007/s11616-026-00941-x',
     tags: ['NLP', 'Data Quality', 'Computational Social Science'],
   },
   {
@@ -268,7 +268,7 @@ export const publications = [
     subtitle: 'Workshop summary — Competence Center Data Quality in the Social Sciences (KODAQS)',
     venue: 'GESIS Blog',
     year: 'Dec 2024',
-    url: 'https://blog.gesis.org',
+    url: 'https://blog.gesis.org/tools-indicators-metrics-data-quality-in-computational-social-science/',
     tags: ['Data Quality', 'CSS', 'Workshop'],
   },
   {
@@ -276,7 +276,7 @@ export const publications = [
     subtitle: null,
     venue: 'GESIS Blog',
     year: 'Dec 2024',
-    url: 'https://blog.gesis.org',
+    url: 'https://blog.gesis.org/textprep-comparing-tools-and-workflows-for-data-quality-in-basic-text-preprocessing-with-r/',
     authors: 'Peters, Yannik & Kunjan Shah',
     tags: ['R', 'NLP', 'Text Preprocessing'],
   },

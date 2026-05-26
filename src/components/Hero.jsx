@@ -75,7 +75,7 @@ export default function Hero() {
             </a>
 
             <div className="hero-actions">
-              <a href="#contact" className="btn btn-primary">💬 Let's Talk</a>
+              <a href="#contact" className="btn btn-primary">💬 Reach Out</a>
               <a href="#projects" className="btn btn-outline">View Work ↓</a>
               <a href={meta.github} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
                 GitHub ↗
