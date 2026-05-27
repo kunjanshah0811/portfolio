@@ -68,10 +68,10 @@ export default function Hero() {
               className="hero-oss"
             >
               <span>⭐</span>
-              <span className="oss-label">{hero.openSourceHighlight.label}&nbsp;</span>
+              <span className="oss-label" style={{ color: 'var(--green)' }}>{hero.openSourceHighlight.label}&nbsp;</span>
               <span className="oss-name">{hero.openSourceHighlight.project}</span>
               <span style={{ color: 'var(--text-faint)', margin: '0 0.25rem' }}>—</span>
-              <span style={{ color: 'var(--text-muted)' }}>{hero.openSourceHighlight.detail}</span>
+              <span style={{ color: 'var(--green)' }}>{hero.openSourceHighlight.detail}</span>
             </a>
 
             <div className="hero-actions">

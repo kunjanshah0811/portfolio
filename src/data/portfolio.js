@@ -1,5 +1,5 @@
 // ============================================================
-//  📁 src/data/portfolio.js  —  YOUR SINGLE SOURCE OF TRUTH
+//  📁 src/data/portfolio.js  -  YOUR SINGLE SOURCE OF TRUTH
 //  Edit this file to update every section of your portfolio.
 //  No other files need changing for content updates.
 // ============================================================
@@ -10,7 +10,7 @@ export const meta = {
   email: 'kkshah0811@gmail.com',
   phone: '+49 179 726 1289',
   location: 'Paderborn, Germany',
-  // 👇 Formspree endpoint — sign up free at formspree.io and paste your form ID
+  // 👇 Formspree endpoint - sign up free at formspree.io and paste your form ID
   formspreeId: 'YOUR_FORM_ID',
   linkedin: 'https://linkedin.com/in/kunjanshah811',
   github: 'https://github.com/kunjanshah0811',
@@ -18,7 +18,7 @@ export const meta = {
   photo: 'public/photo.jpg',
   // For <meta> tags / SEO
   seoDescription:
-    'Kunjan Shah — AI Engineer & Software Developer specialising in LLMs, RAG pipelines, NLP, and full-stack backend APIs.',
+    'Kunjan Shah - AI Engineer & Software Developer specialising in LLMs, RAG pipelines, NLP, and full-stack backend APIs.',
 }
 
 export const hero = {
@@ -39,7 +39,7 @@ export const hero = {
     label: 'Contributed to',
     project: 'Giskard',
     url: 'https://github.com/Giskard-AI/giskard',
-    detail: 'Integrated Groq inference — 18× faster LLM execution',
+    detail: 'Integrated Groq inference - 18× faster LLM execution',
   },
 }
 
@@ -47,7 +47,7 @@ export const about = {
   headline: 'Who I Am',
   paragraphs: [
     'Passionate software developer and AI enthusiast with 2+ years crafting NLP pipelines, RAG chatbots, and agentic LLM systems in production research environments.',
-    'I build LLM-powered applications, RAG pipelines, and solid backend APIs — with a track record of open-source contributions and peer-reviewed publications in computational social science.',
+    'I build LLM-powered applications, RAG pipelines, and solid backend APIs - with a track record of open-source contributions and peer-reviewed publications in computational social science.',
     'Enthusiastic open-source contributor with hands-on LLM fine-tuning experience; achieved up to 50 % accuracy gains over baseline open-source models in my Master\'s thesis.',
   ],
   collaborationTitle: '🤝 Looking to Collaborate',
@@ -58,8 +58,8 @@ export const about = {
   ],
   openForTitle: '💬 Open For',
   openForPoints: [
-    'Freelancing across AI applications, LLM systems, RAG pipelines, production APIs, and full-stack web apps',
-    'End-to-end solutions — from concept to fully deployed product',
+    'Freelancing across AI applications, LLM systems, RAG pipelines, dynamic websites, and full-stack web apps',
+    'End-to-end solutions - from concept to fully deployed product',
     'Long-term technical partnerships and consulting',
   ],
 }
@@ -135,7 +135,7 @@ export const projects = [
     grade: '1.0 (Distinction)',
     org: 'Fraunhofer IEM',
     description:
-      'Designed a full evaluation framework benchmarking 4+ leading LLMs on tool-calling accuracy using AST-based evaluation on synthetic datasets. Applied SFT (PyTorch, HuggingFace) achieving up to 50% accuracy gains — enabling open-source models to match proprietary counterparts on agentic tasks.',
+      'Designed a full evaluation framework benchmarking 4+ leading LLMs on tool-calling accuracy using AST-based evaluation on synthetic datasets. Applied SFT (PyTorch, HuggingFace) achieving up to 50% accuracy gains - enabling open-source models to match proprietary counterparts on agentic tasks.',
     tags: ['LLM', 'Fine-Tuning', 'PyTorch', 'HuggingFace', 'Agentic AI', 'Benchmarking'],
     link: 'https://github.com/kunjanshah0811/Fine-tune-experiment',
     featured: true,
@@ -145,7 +145,7 @@ export const projects = [
     grade: null,
     org: 'DICE – Paderborn University',
     description:
-      'Architected a domain-specific conversational chatbot using LangChain, FAISS vector store, and OpenAI — context-aware PDF Q&A with sub-second retrieval across large document corpora.',
+      'Architected a domain-specific conversational chatbot using LangChain, FAISS vector store, and OpenAI - context-aware PDF Q&A with sub-second retrieval across large document corpora.',
     tags: ['RAG', 'LangChain', 'FAISS', 'FastAPI', 'OpenAI'],
     link: 'https://github.com/kunjanshah0811',
     featured: true,
@@ -155,7 +155,7 @@ export const projects = [
     grade: null,
     org: 'Personal Project',
     description:
-      'Async FastAPI + PostgreSQL backend with sub-100 ms full-text search. React-Vite frontend with instant-copy UX — reducing friction from prompt discovery to use in under 2 clicks.',
+      'Async FastAPI + PostgreSQL backend with sub-100 ms full-text search. React-Vite frontend with instant-copy UX - reducing friction from prompt discovery to use in under 2 clicks.',
     tags: ['FastAPI', 'PostgreSQL', 'React', 'Vite', 'Full-Stack'],
     link: 'https://github.com/kunjanshah0811/LLM-Prompts-Repository',
     featured: false,
@@ -175,7 +175,7 @@ export const projects = [
     grade: null,
     org: 'GESIS',
     description:
-      'Full-stack Shiny web application to compare social media datasets. Integrated sentiment analysis, keyness scoring, and topic modelling with interactive LDAvis visualizations — hosted on GESIS infrastructure.',
+      'Full-stack Shiny web application to compare social media datasets. Integrated sentiment analysis, keyness scoring, and topic modelling with interactive LDAvis visualizations - hosted on GESIS infrastructure.',
     tags: ['R', 'Shiny', 'Sentiment Analysis', 'LDA', 'Data Viz'],
     link: 'https://shiny.gesis.org/datcha/',
     featured: false,
@@ -185,7 +185,7 @@ export const projects = [
     grade: null,
     org: 'Giskard AI',
     description:
-      'Integrated Groq inference into Giskard\'s LLM evaluation library — delivering up to 18× faster execution while maintaining CI quality gates.',
+      'Integrated Groq inference into Giskard\'s LLM evaluation library - delivering up to 18× faster execution while maintaining CI quality gates.',
     tags: ['Open Source', 'Groq', 'LLM Evaluation', 'Giskard', 'CI/CD'],
     link: 'https://github.com/Giskard-AI/giskard',
     featured: true,
@@ -205,7 +205,7 @@ export const experience = [
     url: 'https://www.gesis.org',
     highlights: [
       'Designed an automated extraction framework (Selenium, BeautifulSoup, Scrapling) cutting manual ingestion by ~70%.',
-      'Built TextPrep NLP preprocessing tool — results published in Die Publizistik.',
+      'Built TextPrep NLP preprocessing tool - results published in Die Publizistik.',
       'Developed Datcha, a full-stack Shiny app for social media dataset comparison with interactive visualisations.',
       'Co-authored 2 peer-reviewed publications; contributed GESIS Blog on CSS data quality.',
     ],
@@ -219,7 +219,7 @@ export const experience = [
     url: 'https://dice-research.org',
     highlights: [
       'Architected and deployed a domain-specific RAG chatbot with sub-second FAISS retrieval.',
-      'Built automated LLM evaluation pipelines (Giskard RAGET, Ragas) — reduced manual QA by ~60%.',
+      'Built automated LLM evaluation pipelines (Giskard RAGET, Ragas) - reduced manual QA by ~60%.',
       'Designed vector-based retrieval systems embedding semantic search into production-grade applications.',
       'Wrote multi-join SQL queries across 10+ tables in a PostgreSQL warehouse.',
     ],
@@ -238,7 +238,7 @@ export const education = [
     period: 'Apr 2022 – Mar 2026',
     location: 'Paderborn, Germany',
     url: 'https://www.uni-paderborn.de',
-    notes: 'Thesis: "Function Calling in LLMs – Fine-Tuning for Precision" — Grade 1.0',
+    notes: 'Thesis: "Function Calling in LLMs – Fine-Tuning for Precision" - Grade 1.0',
   },
   {
     institution: 'SVIT Vasad',
@@ -257,7 +257,7 @@ export const education = [
 export const publications = [
   {
     title: 'Die KODAQS-Tools – Eine neue Ressource zur Beurteilung der Qualität von Forschungsdaten',
-    subtitle: 'The KODAQS-Tools — A new resource for assessing the quality of research data',
+    subtitle: 'The KODAQS-Tools - A new resource for assessing the quality of research data',
     venue: 'Die Publizistik',
     year: '2024',
     url: 'https://link.springer.com/article/10.1007/s11616-026-00941-x',
@@ -265,7 +265,7 @@ export const publications = [
   },
   {
     title: 'Tools – Indicators – Metrics: Data Quality in Computational Social Science',
-    subtitle: 'Workshop summary — Competence Center Data Quality in the Social Sciences (KODAQS)',
+    subtitle: 'Workshop summary - Competence Center Data Quality in the Social Sciences (KODAQS)',
     venue: 'GESIS Blog',
     year: 'Dec 2024',
     url: 'https://blog.gesis.org/tools-indicators-metrics-data-quality-in-computational-social-science/',
